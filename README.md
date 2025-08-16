@@ -1,12 +1,21 @@
-# React + Vite
+# FreshCart Ecommerce 🛒
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+FreshCart is a modern **React-based E-Commerce application** that provides a complete shopping experience: user authentication, browsing products, managing cart & wishlist, and completing checkout.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
+- User authentication (Register / Login with JWT).
+- Browse products by categories and brands.
+- Add or remove products from **Cart** and **Wishlist**.
+- Checkout process with **Cash on Delivery** or **Online Payment**.
+- Manage user profile and order history.
+- Fully responsive design for all devices.
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🛠️ Tech Stack
+- **Frontend:** React, React Router, Axios, Formik, Yup  
+- **State Management:** Context API  
+- **UI Styling:** TailwindCSS  
+- **Backend API:** [Route Ecommerce API]
