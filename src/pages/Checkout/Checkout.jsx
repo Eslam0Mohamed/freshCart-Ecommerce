@@ -10,6 +10,7 @@ import { CartContext } from '../../context/cart.Context'
 import Loading from '../../components/Loading/Loading'
 import { createOrder } from '../../services/checkout-service'
 import { useNavigate } from 'react-router'
+import PageMetaData from "../../components/PageMetaData/PageMetaData"
 export default function Checkout() {
 
   <PageMetaData title={"Checkout"} description={"your payment process"}/>
