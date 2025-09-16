@@ -19,8 +19,8 @@ export default function AccountLayout() {
         <div className="user-data flex items-center mb-3 gap-3">
            <FontAwesomeIcon icon={faUserAlt} className="text-3xl"/>
             <div className="content">
-                <h3 className=" text-fontbold">{userInfo.name || "User Name"} </h3>
-                <p className="text-sm text-gray-500">{userInfo.email || "User Email"}</p>
+                <h3 className=" text-fontbold">{userInfo?.name || "User Name"} </h3>
+                <p className="text-sm text-gray-500">{userInfo?.email || "User Email"}</p>
             </div>
         </div>
         <h2 className="text-lg font-bold mb-6">My Account</h2>
