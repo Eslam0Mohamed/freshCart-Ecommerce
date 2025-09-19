@@ -68,6 +68,7 @@ function App() {
         { path: "verify-reset-code", element: <VerifyResetCode/> },
         { path: "reset-password", element: <ResetPassword/> },
         { path: "orders", element: <ProtectedRoute><Orders /></ProtectedRoute> },
+        { path: "allorders", element: <ProtectedRoute><Orders /></ProtectedRoute> },
         { path: "product/:id", element: <ProductDetails /> },
         { path: "search-products", element: <SearchProducts /> },
         { path: "signup", element: <Signup /> },
